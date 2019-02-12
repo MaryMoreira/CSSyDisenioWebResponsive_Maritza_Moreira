@@ -1,0 +1,36 @@
+@font-face {
+	font-family: DancingScript-Regular;
+	src: url('../fuentes/DancingScript-Regular.ttf');
+}
+
+body{
+  font-family: DancingScript-Regular;
+  background-color: #02010a;
+
+}
+
+#menu-principal > h1{
+  padding:10px;
+  margin: 1.5em;
+  background-color:  #5b7989;
+  color: white;
+  font-family: DancingScript-Regular;
+  text-shadow:2px 2px 2px #02010a;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: left;
+}
+
+/* Hipervínculos */
+/*a {outline: 0;}*/
+
+#menu-principal a{
+  color: white;
+	text-decoration: underline;
+  text-align: right;
+}
+/*a:link, a:visited {
+	color: white;
+	text-decoration: underline;
+  text-align: right;
+}*/
