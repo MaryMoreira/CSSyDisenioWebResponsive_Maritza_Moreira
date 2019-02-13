@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   </head>
-  <body id="contenido">
-
-
+  <body>
       <header>
         <nav id="menu-principal">
           <div>
@@ -17,35 +15,37 @@
           </div>
           <div>
             <a href="index.html" style="text-decoration:none">Inicio</a>
-            <a href="paisajes.html">Paisajes</a>
-          	<a href="retratos.html">Retratos</a>
+            <a href="paisajes.html" target="_blank">Paisajes</a>
+          	<a href="retratos.html" target="_blank">Retratos</a>
           </div>
         </nav>
       </header>
-
-      <section id="imagenes">
-        <article class="imagen_central">
-          <figure>
-            <img src="img/imagenCentral.jpg" alt="">
-          </figure>
-        </article>
-        <article class="imagen_secundaria1">
-          <figure>
-            <figcaption>Paisajes</figcaption>
-            <img src="img/paisaje.jpg" alt="">
-          </figure>
-        </article>
-        <article class="imagen_secundaria2">
-          <figure>
-            <figcaption>Retratos</figcaption>
-            <img src="img/retratos.jpg" alt="">
-          </figure>
-        </article>
-      </section>
-
+      <div  id="contenido">
+        <section id="imagenes">
+          <article>
+            <figure>
+              <img src="img/imagenCentral.jpg" class="imagen_central">
+            </figure>
+          </article>
+        </section>
+        <section class="contenedor">
+          <article class="imagen_secundaria1">
+            <figure>
+              <img src="img/paisaje.jpg" alt="">
+              <figcaption>Paisajes</figcaption>
+            </figure>
+          </article>
+          <article class="imagen_secundaria2">
+            <figure>
+              <img src="img/retratos.jpg" alt="">
+              <figcaption>Retratos</figcaption>
+            </figure>
+          </article>
+        </section>
+      </div>
       <footer>
       </footer>
 
-    
+
   </body>
 </html>
