@@ -114,6 +114,33 @@ figure{
 		filter: drop-shadow(2px 2px 2px #82c3a6);
 		transform: translate(20px,-5px);
 	}
+
+	.contenedor_pie_pagina {
+		display:block;
+		margin:auto;
+		padding: 1.5em;
+		display: flex;
+		flex-direction: row;
+		background-color: #C6d5c5;
+		border: 1px;
+	}
+
+	.contacto .termino .redes_sociales .derecho{
+		text-align: justify;
+		width: 25%;
+		font-size: 1em;
+	}
+
+	.redes_sociales li{
+		margin: 0;
+		text-align: justify;
+		list-style: none;
+	}
+
+	.redes_sociales a{
+		text-decoration: none;
+		color: black;
+	}
 }
 
 /*MEDIA QUERIE PARA MOVIL*/
