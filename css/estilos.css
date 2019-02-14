@@ -4,6 +4,15 @@
 	src: url('../fuentes/DancingScript-Bold.ttf');
 }
 
+@-webkit-keyframes cambioPagina{
+	from{
+		transform:translateY(900px);
+	}
+	to{
+		height: 0px;
+	}
+}
+
 *
 {
 	margin:0;
@@ -15,10 +24,14 @@ body{
   margin: 0 auto;
 	padding: 0;
 	width: 900px;
+	animation: cambioPagina 1s;
 }
 figure{
 	text-align: center;
 	text-decoration: underline;
+}
+table{
+  border-collapse: collapse;
 }
 
 /*MEDIA QUERIE PARA DESKTOP*/
@@ -116,32 +129,91 @@ figure{
 	}
 
 	.contenedor_pie_pagina {
-		display:block;
+		display:flex;
 		margin:auto;
 		padding: 1.5em;
-		display: flex;
 		flex-direction: row;
 		background-color: #C6d5c5;
 		border: 1px;
+		border-bottom-left-radius: 10px;
+	  border-bottom-right-radius: 10px;
 	}
 
 	.contacto .termino .redes_sociales .derecho{
-		text-align: justify;
 		width: 25%;
 		font-size: 1em;
 	}
 
 	.redes_sociales li{
-		margin: 0;
-		text-align: justify;
+		display: inline-block;
+		margin: 0 auto;
 		list-style: none;
 	}
 
 	.redes_sociales a{
+		margin: 0;
+		text-align: none;
 		text-decoration: none;
 		color: black;
 	}
+
+	#contenido_tabla{
+		display:block;
+		margin:auto;
+		padding: 2em;
+		display: flex;
+		flex-direction: row;
+		background-color:  #d5c75f;
+		border: 1px;
+	}
+
+	td .imagen1{
+		margin: 20px;
+		width:15em;
+		height:10em;
+		-webkit-filter:blur(10px);
+		filter: blur(10px);
+	}
+
+	td .imagen2{
+		margin: 20px;
+		width:15em;
+		height:10em;
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+
+	td .imagen3{
+		margin: 20px;
+		width:15em;
+		height:10em;
+		-webkit-filter:sepia(90%);
+		filter: sepia(90%);
+	}
+
+	td .imagen4{
+	  margin: 20px;
+		width:15em;
+		height:10em;
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+
+	td .imagen5{
+		margin: 20px;
+		width:15em;
+		height:10em;
+	}
+
+	td .imagen6{
+		margin: 20px;
+		width:15em;
+		height:10em;
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
 }
+
 
 /*MEDIA QUERIE PARA MOVIL*/
 @media (max-width:900px){
