@@ -218,28 +218,33 @@ section{
 	}
 
   .imagen1{
-		-webkit-filter:blur(10px);
-		filter: blur(10px);
+		-webkit-filter:blur(10px) drop-shadow(2px 2px 2px #02010a);
+		filter: blur(10px) drop-shadow(2px 2px 2px #02010a);
 	}
 
 	.imagen2{
-		-webkit-filter:grayscale(100%);
-		filter: grayscale(100%);
+		-webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+		filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
 	}
 
 	.imagen3{
-		-webkit-filter:sepia(90%);
-		filter: sepia(90%);
+		-webkit-filter:sepia(90%) drop-shadow(2px 2px 2px #02010a);
+		filter: sepia(90%) drop-shadow(2px 2px 2px #02010a);
 	}
 
 	.imagen4{
-		-webkit-filter:grayscale(100%);
-		filter: grayscale(100%);
+		-webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+		filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+	}
+
+	.imagen5{
+		-webkit-filter:drop-shadow(2px 2px 2px #02010a);;
+		filter: drop-shadow(2px 2px 2px #02010a);;
 	}
 
 	.imagen6{
-		-webkit-filter:grayscale(100%);
-		filter: grayscale(100%);
+		-webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+		filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
 	}
 }
 
@@ -407,27 +412,32 @@ section{
 		}
 
 	  .imagen1{
-			-webkit-filter:blur(10px);
-			filter: blur(10px);
+			-webkit-filter:blur(10px) drop-shadow(2px 2px 2px #02010a);
+			filter: blur(10px) drop-shadow(2px 2px 2px #02010a);
 		}
 
 		.imagen2{
-			-webkit-filter:grayscale(100%);
-			filter: grayscale(100%);
+			-webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+			filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
 		}
 
 		.imagen3{
-			-webkit-filter:sepia(90%);
-			filter: sepia(90%);
+			-webkit-filter:sepia(90%) drop-shadow(2px 2px 2px #02010a);
+			filter: sepia(90%) drop-shadow(2px 2px 2px #02010a);
 		}
 
 		.imagen4{
-			-webkit-filter:grayscale(100%);
-			filter: grayscale(100%);
+			-webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+			filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+		}
+
+		.imagen5{
+			-webkit-filter:rop-shadow(2px 2px 2px #02010a);
+			filter: drop-shadow(2px 2px 2px #02010a);
 		}
 
 		.imagen6{
-			-webkit-filter:grayscale(100%);
-			filter: grayscale(100%);
+			-webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+			filter: grayscale(100%) drop-shadow(2px 2px 2px #02010a);
 		}
 }
